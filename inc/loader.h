@@ -50,7 +50,7 @@ public:
         , size { 0 }
         , bytes { NULL }
     {}
-
+    
     Binary *binary;
     std::string name;
     SectionType type;
