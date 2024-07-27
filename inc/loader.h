@@ -98,7 +98,7 @@ public:
     std::string type_str;
     BinaryArch arch;
     std::string arch_str;
-    unsigned bits;
+    unsigned int bits;
     uint64_t entry;
     std::vector<Section> sections;
     std::vector<Symbol> symbols;
